@@ -14,6 +14,26 @@ belloum9999a = DB(Work(
     ID="belloumws",
 ))
 
+buneman9999a = DB(Work(
+    9999, "Provenance, Workflows and Objects",
+    alias=(0, "Provenance, Workflows and Objects",),
+    display="buneman",
+    authors="Buneman, Peter",
+    place=TechReport,
+    entrytype="article",
+    ID="bunemanprovenance",
+))
+
+escobar9999a = DB(Work(
+    9999, "Uso de Agendas Colaborativas para Suporte ao Trabalho Cooperativo",
+    alias=(0, "Uso de Agendas Colaborativas para Suporte ao Trabalho Cooperativo",),
+    display="escobar",
+    authors="Escobar, Augusto Martins and da Cunha Costa, Bruno Carlos",
+    place=TechReport,
+    entrytype="article",
+    ID="escobaruso",
+))
+
 fitzgerald9999a = DB(Work(
     9999, "Peter Gorm Larsen",
     alias=(0, "Peter Gorm Larsen",),
@@ -22,4 +42,23 @@ fitzgerald9999a = DB(Work(
     place=TechReport,
     entrytype="article",
     ID="fitzgeraldpeter",
+))
+
+lerner9999a = DB(Work(
+    9999, "Leveraging Scientific Provenance Data to Improve Scientific Results",
+    display="lerner",
+    authors="Lerner, Barbara",
+    place=TechReport,
+    entrytype="article",
+    ID="lernerleveraging",
+))
+
+sun9999a = DB(Work(
+    9999, "Provenance for Preservation",
+    alias=(0, "Provenance for Preservation",),
+    display="sun",
+    authors="Sun, Yiming and Plale, Beth and Cheah, You-wei",
+    place=TechReport,
+    entrytype="article",
+    ID="sunprovenance",
 ))

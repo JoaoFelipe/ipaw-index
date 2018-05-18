@@ -38,6 +38,21 @@ davis2018a = DB(Work(
     ID="davis2018data",
 ))
 
+dayarathna2018a = DB(Work(
+    2018, "Recent Advancements in Event Processing",
+    display="dayarathna",
+    authors="Dayarathna, Miyuru and Perera, Srinath",
+    place=CSUR,
+    pp="33",
+    entrytype="article",
+    volume="51",
+    number="2",
+    publisher="ACM",
+    ID="dayarathna2018recent",
+    cluster_id="11936773208179875163",
+    scholar="http://scholar.google.com/scholar?cites=11936773208179875163&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 diwisch2018a = DB(Work(
     2018, "Managing Cultural Assets: Challenges for Implementing Typical Cultural Heritage Archive’s Usage Scenarios",
     display="diwisch",
@@ -48,6 +63,19 @@ diwisch2018a = DB(Work(
     entrytype="incollection",
     publisher="Springer",
     ID="diwisch2018managing",
+))
+
+feitosa2018a = DB(Work(
+    2018, "A systematic review on the use of best practices for publishing linked data",
+    display="feitosa",
+    authors="Feitosa, Danila and Dermeval, Diego and Ávila, Thiago and Bittencourt, Ig Ibert and Lóscio, Bernadette Farias and Isotani, Seiji",
+    place=OIR,
+    pp="107--123",
+    entrytype="article",
+    volume="42",
+    number="1",
+    publisher="Emerald Publishing Limited",
+    ID="feitosa2018systematic",
 ))
 
 freire2018a = DB(Work(
@@ -72,6 +100,19 @@ gehani2018a = DB(Work(
     ID="gehani3",
 ))
 
+khouri2018a = DB(Work(
+    2018, "Combining Artificial Intelligence, Ontology, and Frequency-based Approaches to Recommend Activities in Scientific Workflows",
+    alias=(0, "Combining Artificial Intelligence, Ontology, and Frequency-based Approaches to Recommend Activities in Scientific Workflows",),
+    display="khouri",
+    authors="Khouri, Adilson Lopes and Digiampietri, Luciano Antonio",
+    place=RITA,
+    pp="39--47",
+    entrytype="article",
+    volume="25",
+    number="1",
+    ID="khouri25combining",
+))
+
 lerner2018a = DB(Work(
     2018, "Using Introspection to Collect Provenance in R",
     display="lerner",
@@ -83,6 +124,30 @@ lerner2018a = DB(Work(
     number="1",
     organization="Multidisciplinary Digital Publishing Institute",
     ID="lerner2018using",
+))
+
+ma2018a = DB(Work(
+    2018, "Documenting provenance for reproducible marine ecosystem assessment in open science",
+    display="ma",
+    authors="Ma, Xiaogang and Beaulieu, Stace E and Fu, Linyun and Fox, Peter and Di Stefano, Massimo and West, Patrick",
+    pp="1051--1077",
+    place=Book,
+    bookname="Information Retrieval and Management: Concepts, Methodologies, Tools, and Applications",
+    entrytype="incollection",
+    publisher="IGI Global",
+    ID="ma2018documenting",
+    cluster_id="5145835200313997412",
+    scholar="http://scholar.google.com/scholar?cites=5145835200313997412&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+montella2018a = DB(Work(
+    2018, "Using the FACE-IT portal and workflow engine for operational food quality prediction and assessment: An application to mussel farms monitoring in the Bay of Napoli, Italy",
+    display="montella",
+    authors="Montella, Raffaele and Brizius, Alison and Di Luccio, Diana and Porter, Cheryl and Elliot, Joshua and Madduri, Ravi and Kelly, David and Riccio, Angelo and Foster, Ian",
+    place=FGCS,
+    entrytype="article",
+    publisher="Elsevier",
+    ID="montella2018using",
 ))
 
 moreau2018a = DB(Work(
@@ -108,6 +173,18 @@ moreau2018b = DB(Work(
     place=TSE,
     entrytype="article",
     ID="moreautemplating",
+))
+
+mountantonakis2018a = DB(Work(
+    2018, "Connectivity, Value, and Evolution of a Semantic Warehouse",
+    display="mountantonakis",
+    authors="Mountantonakis, Michalis and Minadakis, Nikos and Marketakis, Yannis and Fafalios, Pavlos and Tzitzikas, Yannis",
+    pp="1--31",
+    place=Book,
+    bookname="Innovations, Developments, and Applications of Semantic Web and Information Systems",
+    entrytype="incollection",
+    publisher="IGI Global",
+    ID="mountantonakis2018connectivity",
 ))
 
 ornelas2018a = DB(Work(
@@ -198,6 +275,63 @@ pérez2018a = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=16151702878639792999&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+reinhardt2018a = DB(Work(
+    2018, "Validation of Multi-Level Simulation Models in Demography--Making it Explicit",
+    display="reinhardt",
+    authors="Reinhardt, Oliver and Warnke, Tom and Ruscheinski, Andreas and Uhrmacher, Adelinde M",
+    place=Book,
+    bookname="Computer Simulation Validation. Fundamental Concepts, Methodological Frameworks, Philosophical Perspectives",
+    entrytype="article",
+    publisher="Springer International Publishing",
+    ID="reinhardt2018validation",
+))
+
+ruan2018a = DB(Work(
+    2018, "Models, Languages, and Algorithms for Scientific Workflow Monitoring and Exception Handling",
+    display="ruan",
+    authors="Ruan, Dong",
+    place=Thesis,
+    entrytype="phdthesis",
+    ID="ruan2018models",
+    local="Wayne State University",
+))
+
+rübel2018a = DB(Work(
+    2018, "BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI",
+    display="rübel",
+    authors="Rübel, Oliver and Bowen, Benjamin P",
+    place=TVCG,
+    pp="1025--1035",
+    entrytype="article",
+    volume="24",
+    number="1",
+    publisher="IEEE",
+    ID="rubel2018bastet",
+))
+
+sakr2018a = DB(Work(
+    2018, "Provenance Management for Linked Data",
+    display="sakr",
+    authors="Sakr, Sherif and Wylot, Marcin and Mutharaju, Raghava and Le Phuoc, Danh and Fundulaki, Irini",
+    pp="181--195",
+    place=Book,
+    bookname="Linked Data",
+    entrytype="incollection",
+    publisher="Springer",
+    ID="sakr2018provenance",
+))
+
+sakr2018b = DB(Work(
+    2018, "Linked Data",
+    alias=(0, "Linked Data",),
+    display="sakr",
+    authors="Sakr, Sherif and Wylot, Marcin and Mutharaju, Raghava and Le Phuoc, Danh and Fundulaki, Irini",
+    place=Book,
+    entrytype="article",
+    publisher="Springer",
+    ID="sakrlinked",
+))
+
 sarikhani2018a = DB(Work(
     2018, "Mechanisms for provenance collection in scientific workflow systems",
     display="sarikhani",
@@ -239,6 +373,18 @@ schreiber2018a = DB(Work(
     ID="schreiber2018visualizing",
 ))
 
+shoshani2018a = DB(Work(
+    2018, "Conclusions and Future Outlook",
+    display="shoshani",
+    authors="Shoshani, Arie and Rotem, Doron",
+    pp="526--555",
+    place=Book,
+    bookname="Scientific Data Management: Challenges, Technology, and Deployment",
+    entrytype="incollection",
+    publisher="Chapman & Hall/CRC",
+    ID="shoshani2018conclusions",
+))
+
 taxidou2018a = DB(Work(
     2018, "Web-scale provenance reconstruction of implicit information diffusion on social media",
     display="taxidou",
@@ -259,6 +405,16 @@ thomas2018a = DB(Work(
     place=arXiv,
     entrytype="article",
     ID="thomas2018sharing",
+))
+
+uddin2018a = DB(Work(
+    2018, "QUERY INVERSION TO FIND DATA PROVENANCE",
+    alias=(0, "QUERY INVERSION TO FIND DATA PROVENANCE",),
+    display="uddin",
+    authors="Uddin, Md Salah and Alexandrov, Dmitry V and Rahman, Armanur",
+    place=IJSIA,
+    entrytype="article",
+    ID="uddinquery",
 ))
 
 yuan2018a = DB(Work(

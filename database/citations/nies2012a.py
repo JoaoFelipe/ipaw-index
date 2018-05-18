@@ -23,6 +23,8 @@ from ..work.y2015 import sharma2015a
 from ..work.y2015 import jing2015a
 from ..work.y2015 import sarikhani2015a
 from ..work.y2016 import nies2016a
+from ..work.y2016 import vasudevan2016a
+from ..work.y2016 import lang2016b
 from ..work.y2018 import taxidou2018a
 from ..work.y2018 import sarikhani2018a
 
@@ -161,6 +163,20 @@ DB(Citation(
 
 DB(Citation(
     sarikhani2015a, nies2012a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    vasudevan2016a, nies2012a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    lang2016b, nies2012a, ref="",
     contexts=[
 
     ],

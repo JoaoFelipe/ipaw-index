@@ -15,6 +15,9 @@ bochner2008a = DB(WorkFullPaper(
     cluster_id="5386952245854088621",
     scholar="http://scholar.google.com/scholar?cites=5386952245854088621&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="17",
+    delta_scholar=1,
+    snowball=datetime(2018, 5, 17),
 ))
 
 bowers2008a = DB(WorkRegularPaper(
@@ -29,6 +32,9 @@ bowers2008a = DB(WorkRegularPaper(
     cluster_id="195160912900174592",
     scholar="http://scholar.google.com/scholar?cites=195160912900174592&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="77",
+    delta_scholar=2,
+    snowball=datetime(2018, 5, 17),
 ))
 
 callahan2008a = DB(WorkRegularPaper(
@@ -43,6 +49,8 @@ callahan2008a = DB(WorkRegularPaper(
     cluster_id="636018522709490645",
     scholar="http://scholar.google.com/scholar?cites=636018522709490645&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="27",
+    snowball=datetime(2018, 5, 17),
 ))
 
 chapman2008a = DB(WorkFullPaper(
@@ -57,6 +65,20 @@ chapman2008a = DB(WorkFullPaper(
     cluster_id="12747796490762916013",
     scholar="http://scholar.google.com/scholar?cites=12747796490762916013&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="7",
+    snowball=datetime(2018, 5, 17),
+))
+
+chapman2008b = DB(Work(
+    2008, "Incorporating provenance in database systems",
+    display="chapman b",
+    authors="Chapman, Adriane P",
+    place=Thesis,
+    entrytype="phdthesis",
+    ID="chapman2008incorporating",
+    cluster_id="7396523777272213237",
+    scholar="http://scholar.google.com/scholar?cites=7396523777272213237&as_sdt=2005&sciodt=0,5&hl=en",
+    local="University of Michigan",
 ))
 
 chen2008a = DB(WorkFullPaper(
@@ -71,6 +93,8 @@ chen2008a = DB(WorkFullPaper(
     cluster_id="9473262438825925574",
     scholar="http://scholar.google.com/scholar?cites=9473262438825925574&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="6",
+    snowball=datetime(2018, 5, 17),
 ))
 
 crawl2008a = DB(WorkRegularPaper(
@@ -85,6 +109,9 @@ crawl2008a = DB(WorkRegularPaper(
     cluster_id="4796998697802767604",
     scholar="http://scholar.google.com/scholar?cites=4796998697802767604&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="64",
+    delta_scholar=2,
+    snowball=datetime(2018, 5, 17),
 ))
 
 cruz2008a = DB(WorkFullPaper(
@@ -99,6 +126,43 @@ cruz2008a = DB(WorkFullPaper(
     cluster_id="13930573112220546708",
     scholar="http://scholar.google.com/scholar?cites=13930573112220546708&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="14",
+    snowball=datetime(2018, 5, 17),
+))
+
+cruz2008b = DB(Work(
+    2008, "Controles de Fluxo Explícitos em Workflows Científicos",
+    alias=(0, "Controles de Fluxo Explícitos em Workflows Científicos",),
+    display="cruz",
+    authors="da Cruz, Sérgio Manuel Serra and Chirigati, Fernando Seabra and Dahis, Rafael and Campos, Maria Luiza M and Mattoso, Marta",
+    place=bresciw,
+    entrytype="article",
+    ID="dacontroles",
+))
+
+daniel2008a = DB(Work(
+    2008, "Managing Data Quality in Business Intelligence Applications.",
+    display="daniel",
+    authors="Daniel, Florian and Casati, Fabio and Palpanas, Themis and Chayka, Oleksiy",
+    place=QDB_MUD,
+    pp="133--143",
+    entrytype="inproceedings",
+    ID="daniel2008managing",
+    cluster_id="8371416002130769497",
+    scholar="http://scholar.google.com/scholar?cites=8371416002130769497&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+davidson2008a = DB(Work(
+    2008, "Provenance and scientific workflows: challenges and opportunities",
+    display="davidson",
+    authors="Davidson, Susan B and Freire, Juliana",
+    place=SIGMOD,
+    pp="1345--1350",
+    entrytype="inproceedings",
+    organization="ACM",
+    ID="davidson2008provenance",
+    cluster_id="8365331144353697739",
+    scholar="http://scholar.google.com/scholar?cites=8365331144353697739&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 ellkvist2008a = DB(WorkFullPaper(
@@ -113,6 +177,21 @@ ellkvist2008a = DB(WorkFullPaper(
     cluster_id="10657989244876192214",
     scholar="http://scholar.google.com/scholar?cites=10657989244876192214&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="25",
+    snowball=datetime(2018, 5, 17),
+))
+
+foster2008a = DB(Work(
+    2008, "Cloud computing and grid computing 360-degree compared",
+    display="foster",
+    authors="Foster, Ian and Zhao, Yong and Raicu, Ioan and Lu, Shiyong",
+    place=GCE,
+    pp="1--10",
+    entrytype="inproceedings",
+    organization="Ieee",
+    ID="foster2008cloud",
+    cluster_id="11059172793408319527",
+    scholar="http://scholar.google.com/scholar?cites=11059172793408319527&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 frew2008a = DB(WorkRegularPaper(
@@ -127,6 +206,8 @@ frew2008a = DB(WorkRegularPaper(
     cluster_id="490109257561340733",
     scholar="http://scholar.google.com/scholar?cites=490109257561340733&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="17",
+    snowball=datetime(2018, 5, 17),
 ))
 
 gibson2008a = DB(WorkRegularPaper(
@@ -141,6 +222,21 @@ gibson2008a = DB(WorkRegularPaper(
     cluster_id="16698433468405549041",
     scholar="http://scholar.google.com/scholar?cites=16698433468405549041&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="4",
+    snowball=datetime(2018, 5, 17),
+))
+
+groth2008a = DB(Work(
+    2008, "A distributed algorithm for determining the provenance of data",
+    display="groth",
+    authors="Groth, Paul T",
+    place=eScience,
+    pp="166--173",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="groth2008distributed",
+    cluster_id="17488769310737157716",
+    scholar="http://scholar.google.com/scholar?cites=17488769310737157716&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 jankun2008a = DB(WorkFullPaper(
@@ -155,6 +251,21 @@ jankun2008a = DB(WorkFullPaper(
     cluster_id="13552975752483979442",
     scholar="http://scholar.google.com/scholar?cites=13552975752483979442&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="10",
+    snowball=datetime(2018, 5, 17),
+))
+
+jr2008a = DB(Work(
+    2008, "Kairos: an architecture for securing authorship and temporal information of provenance data in grid-enabled workflow management systems",
+    display="jr",
+    authors="Gadelha Jr, Luiz MR and Mattoso, Marta",
+    place=eScience,
+    pp="597--602",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="gadelha2008kairos",
+    cluster_id="10562403936886391539",
+    scholar="http://scholar.google.com/scholar?cites=10562403936886391539&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 k2008a = DB(WorkRegularPaper(
@@ -169,6 +280,8 @@ k2008a = DB(WorkRegularPaper(
     cluster_id="5487737609299051110",
     scholar="http://scholar.google.com/scholar?cites=5487737609299051110&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="1",
+    snowball=datetime(2018, 5, 17),
 ))
 
 kunde2008a = DB(WorkFullPaper(
@@ -183,6 +296,9 @@ kunde2008a = DB(WorkFullPaper(
     cluster_id="9514478783268891813",
     scholar="http://scholar.google.com/scholar?cites=9514478783268891813&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="20",
+    delta_scholar=1,
+    snowball=datetime(2018, 5, 17),
 ))
 
 kwasnikowska2008a = DB(WorkFullPaper(
@@ -197,6 +313,8 @@ kwasnikowska2008a = DB(WorkFullPaper(
     cluster_id="12241979958890272637",
     scholar="http://scholar.google.com/scholar?cites=12241979958890272637&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="24",
+    snowball=datetime(2018, 5, 17),
 ))
 
 li2008a = DB(WorkRegularPaper(
@@ -211,6 +329,8 @@ li2008a = DB(WorkRegularPaper(
     cluster_id="16749954478957136588",
     scholar="http://scholar.google.com/scholar?cites=16749954478957136588&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="5",
+    snowball=datetime(2018, 5, 17),
 ))
 
 mackenzie2008a = DB(WorkFullPaper(
@@ -225,6 +345,8 @@ mackenzie2008a = DB(WorkFullPaper(
     cluster_id="14175201617673109066",
     scholar="http://scholar.google.com/scholar?cites=14175201617673109066&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="15",
+    snowball=datetime(2018, 5, 17),
 ))
 
 martin2008a = DB(WorkFullPaper(
@@ -239,6 +361,21 @@ martin2008a = DB(WorkFullPaper(
     cluster_id="4874963829845536306",
     scholar="http://scholar.google.com/scholar?cites=4874963829845536306&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="6",
+    snowball=datetime(2018, 5, 17),
+))
+
+mattoso2008a = DB(Work(
+    2008, "Gerenciando experimentos científicos em larga escala",
+    display="mattoso",
+    authors="Mattoso, Marta and Werner, Cláudia and Travassos, G and Braganholo, Vanessa and Murta, Leonardo",
+    place=SEMISH,
+    pp="121--135",
+    entrytype="article",
+    volume="8",
+    ID="mattoso2008gerenciando",
+    cluster_id="5237980751505785021",
+    scholar="http://scholar.google.com/scholar?cites=5237980751505785021&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 mccann2008a = DB(WorkFullPaper(
@@ -253,6 +390,18 @@ mccann2008a = DB(WorkFullPaper(
     cluster_id="8855494582838909834",
     scholar="http://scholar.google.com/scholar?cites=8855494582838909834&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="10",
+    snowball=datetime(2018, 5, 17),
+))
+
+mcphillips2008a = DB(Work(
+    2008, "Formalized data acquisition platforms",
+    alias=(0, "Formalized data acquisition platforms",),
+    display="mcphillips",
+    authors="McPhillips, Timothy and Schildhauer, Mark",
+    place=TechReport,
+    entrytype="article",
+    ID="mcphillipsformalized",
 ))
 
 misra2008a = DB(WorkFullPaper(
@@ -267,6 +416,9 @@ misra2008a = DB(WorkFullPaper(
     cluster_id="11561766406777208134",
     scholar="http://scholar.google.com/scholar?cites=11561766406777208134&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="37",
+    delta_scholar=1,
+    snowball=datetime(2018, 5, 17),
 ))
 
 missier2008a = DB(WorkFullPaper(
@@ -281,6 +433,9 @@ missier2008a = DB(WorkFullPaper(
     cluster_id="4377452439237824561",
     scholar="http://scholar.google.com/scholar?cites=4377452439237824561&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="76",
+    delta_scholar=3,
+    snowball=datetime(2018, 5, 17),
 ))
 
 missier2008b = DB(WorkFullPaper(
@@ -295,6 +450,9 @@ missier2008b = DB(WorkFullPaper(
     cluster_id="16646101790777150475",
     scholar="http://scholar.google.com/scholar?cites=16646101790777150475&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="11",
+    delta_scholar=2,
+    snowball=datetime(2018, 5, 17),
 ))
 
 moreau2008a = DB(WorkShortPaper(
@@ -309,6 +467,7 @@ moreau2008a = DB(WorkShortPaper(
     cluster_id="16829466459230725777",
     scholar="http://scholar.google.com/scholar?cites=16829466459230725777&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="209",
 ))
 
 nagappan2008a = DB(WorkRegularPaper(
@@ -323,6 +482,20 @@ nagappan2008a = DB(WorkRegularPaper(
     cluster_id="5017570924310533741",
     scholar="http://scholar.google.com/scholar?cites=5017570924310533741&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="9",
+    snowball=datetime(2018, 5, 17),
+))
+
+ogasawara2008a = DB(Work(
+    2008, "Linhas de experimento: Reutiliza{ç}ão e gerência de configura{ç}ão em workflows científicos",
+    display="ogasawara",
+    authors="Ogasawara, Eduardo and Murta, Leonardo and Werner, Cláudia and Mattoso, Marta",
+    place=bresciw,
+    pp="31--40",
+    entrytype="inproceedings",
+    ID="ogasawara2008linhas",
+    cluster_id="1057801278619022999",
+    scholar="http://scholar.google.com/scholar?cites=1057801278619022999&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 oliveira2008a = DB(WorkRegularPaper(
@@ -337,6 +510,9 @@ oliveira2008a = DB(WorkRegularPaper(
     cluster_id="8720898343901183265",
     scholar="http://scholar.google.com/scholar?cites=8720898343901183265&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="34",
+    delta_scholar=1,
+    snowball=datetime(2018, 5, 17),
 ))
 
 park2008a = DB(WorkFullPaper(
@@ -351,6 +527,32 @@ park2008a = DB(WorkFullPaper(
     cluster_id="13559904733663314201",
     scholar="http://scholar.google.com/scholar?cites=13559904733663314201&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="40",
+    snowball=datetime(2018, 5, 17),
+))
+
+roos2008a = DB(Work(
+    2008, "Structuring mined knowledge for the support of hypothesis generation in molecular biology",
+    display="roos",
+    authors="Roos, Marco and Marshall, M Scott and Gibson, Andrew P and Adriaans, Pieter W",
+    place=SWAT4LS,
+    entrytype="article",
+    volume="46",
+    ID="roos2008structuring",
+    cluster_id="2869181552913283385",
+    scholar="http://scholar.google.com/scholar?cites=2869181552913283385&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+ruda2008a = DB(Work(
+    2008, "Job Centric Monitoring on the Grid",
+    display="ruda",
+    authors="Ruda, Miroslav and Sitera, Jirí and Krenek, Ale{š} and Matyska, Ludek and {Š}ustr, Zdenek and Vocu, Michal",
+    place=CESNET,
+    pp="3",
+    entrytype="inproceedings",
+    ID="ruda2008job",
+    cluster_id="12313872630981088644",
+    scholar="http://scholar.google.com/scholar?cites=12313872630981088644&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 santos2008a = DB(WorkFullPaper(
@@ -365,6 +567,22 @@ santos2008a = DB(WorkFullPaper(
     cluster_id="15683721165034848288",
     scholar="http://scholar.google.com/scholar?cites=15683721165034848288&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="41",
+    delta_scholar=1,
+    snowball=datetime(2018, 5, 17),
+))
+
+tan2008a = DB(Work(
+    2008, "Building scientific workflow with taverna and bpel: A comparative study in cagrid",
+    display="tan",
+    authors="Tan, Wei and Missier, Paolo and Madduri, Ravi and Foster, Ian",
+    place=SCC,
+    pp="118--129",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="tan2008building",
+    cluster_id="5679298172873335873",
+    scholar="http://scholar.google.com/scholar?cites=5679298172873335873&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 tilmes2008a = DB(WorkRegularPaper(
@@ -379,6 +597,22 @@ tilmes2008a = DB(WorkRegularPaper(
     cluster_id="15134980373376890862",
     scholar="http://scholar.google.com/scholar?cites=15134980373376890862&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="26",
+    delta_scholar=1,
+    snowball=datetime(2018, 5, 17),
+))
+
+wang2008a = DB(Work(
+    2008, "A high-level distributed execution framework for scientific workflows",
+    display="wang",
+    authors="Wang, Jianwu and Altintas, Ilkay and Berkley, Chad and Gilbert, Lucas and Jones, Matthew B",
+    place=eScience,
+    pp="634--639",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="wang2008high",
+    cluster_id="1436526566687452377",
+    scholar="http://scholar.google.com/scholar?cites=1436526566687452377&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 wootten2008a = DB(WorkFullPaper(
@@ -393,6 +627,8 @@ wootten2008a = DB(WorkFullPaper(
     cluster_id="12152970280632769447",
     scholar="http://scholar.google.com/scholar?cites=12152970280632769447&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="2",
+    snowball=datetime(2018, 5, 17),
 ))
 
 zhao2008a = DB(WorkFullPaper(
@@ -407,4 +643,19 @@ zhao2008a = DB(WorkFullPaper(
     cluster_id="296244662139607687",
     scholar="http://scholar.google.com/scholar?cites=296244662139607687&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="18",
+    delta_scholar=1,
+    snowball=datetime(2018, 5, 17),
+))
+
+zhao2008b = DB(Work(
+    2008, "A provenance-integration framework for distributed workflows in grid environments",
+    display="zhao b",
+    authors="Zhao, Jing and Sun, Fan and Torniai, Carlo and Bakshi, Amol and Prasanna, Viktor",
+    place=HiPC,
+    pp="17--20",
+    entrytype="inproceedings",
+    ID="zhao2008provenance",
+    cluster_id="4755704745275140949",
+    scholar="http://scholar.google.com/scholar?cites=4755704745275140949&as_sdt=2005&sciodt=0,5&hl=en",
 ))

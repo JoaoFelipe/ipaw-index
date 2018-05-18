@@ -24,7 +24,6 @@ config.CLASSES = [
     ("WorkShortPaper", "short", "display", "#6DCE9E", "white"),
     ("WorkDemo", "demo", "display", "#6DCE9E", "white"),
     ("WorkPoster", "poster", "display", "#6DCE9E", "white"),
-    ("WorkKeynote", "keynote", "display", "#6DCE9E", "white"),
     ("WorkLateBreaking", "latebreaking", "display", "#6DCE9E", "white"),
     ("Site", "site", "hide", "#000080", "white"),
     ("Email", "site", "hide", "#000080", "white"),
@@ -62,6 +61,7 @@ config.BIBTEX_IGNORE_FIELDS = [
 
     # Extra
     "summary", "star", "approach_name",
+    "delta_scholar", "scholar_count", "placename",
 ]
 
 

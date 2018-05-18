@@ -3,6 +3,19 @@ from datetime import datetime
 from snowballing.models import *
 from ..places import *
 
+aggour2017a = DB(Work(
+    2017, "Colt: concept lineage tool for data flow metadata capture and analysis",
+    display="aggour",
+    authors="Aggour, Kareem S and Williams, Jenny Weisenberg and McHugh, Justin and Kumar, Vijay S",
+    place=VLDB,
+    pp="1790--1801",
+    entrytype="article",
+    volume="10",
+    number="12",
+    publisher="VLDB Endowment",
+    ID="aggour2017colt",
+))
+
 alkhalil2017a = DB(Work(
     2017, "IoT Data Provenance Implementation Challenges",
     display="alkhalil",
@@ -41,6 +54,29 @@ atkinson2017a = DB(Work(
     ID="atkinsonenvri",
 ))
 
+atkinson2017b = DB(Work(
+    2017, "Scientific workflows: Past, present and future",
+    display="atkinson b",
+    authors="Atkinson, Malcolm and Gesing, Sandra and Montagnat, Johan and Taylor, Ian",
+    place=FGCS,
+    entrytype="misc",
+    publisher="Elsevier",
+    ID="atkinson2017scientific",
+    cluster_id="15080322888291169324",
+    scholar="http://scholar.google.com/scholar?cites=15080322888291169324&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+ayed2017a = DB(Work(
+    2017, "Docker2RDF: Lifting the Docker Registry Hub into RDF",
+    display="ayed",
+    authors="Ayed, Ahmed Ben and Subercaze, Julien and Laforest, Frederique and Chaari, Tarak and Louati, Wajdi and Kacem, Ahmed Hadj",
+    place=SERVICES,
+    pp="36--39",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="ayed2017docker2rdf",
+))
+
 bastos2017a = DB(Work(
     2017, "WISP: A pattern-based approach to the interchange of scientific workflow specifications",
     display="bastos",
@@ -66,6 +102,36 @@ bates2017a = DB(Work(
     ID="bates2017transparent",
     cluster_id="6955665710699725764",
     scholar="http://scholar.google.com/scholar?cites=6955665710699725764&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+benassai2017a = DB(Work(
+    2017, "Rip current evidence by hydrodynamic simulations, bathymetric surveys and UAV observation",
+    display="benassai",
+    authors="Benassai, Guido and Aucelli, Pietro and Budillon, Giorgio and De Stefano, Massimo and Di Luccio, Diana and Di Paola, Gianluigi and Montella, Raffaele and Mucerino, Luigi and Sica, Mario and Pennetta, Micla",
+    place=NHESS,
+    pp="1493",
+    entrytype="article",
+    volume="17",
+    number="9",
+    publisher="Copernicus GmbH",
+    ID="benassai2017rip",
+    cluster_id="8990771916466108246",
+    scholar="http://scholar.google.com/scholar?cites=8990771916466108246&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+bigelow2017a = DB(Work(
+    2017, "Iterating between tools to create and edit visualizations",
+    display="bigelow",
+    authors="Bigelow, Alex and Drucker, Steven and Fisher, Danyel and Meyer, Miriah",
+    place=TVCG,
+    pp="481--490",
+    entrytype="article",
+    volume="23",
+    number="1",
+    publisher="IEEE",
+    ID="bigelow2017iterating",
+    cluster_id="5321061839905821532",
+    scholar="http://scholar.google.com/scholar?cites=5321061839905821532&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 cao2017a = DB(Work(
@@ -111,6 +177,16 @@ carvalho2017b = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=6103165171214562414&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+carvalho2017c = DB(Work(
+    2017, "Requirements for Facilitating the Continuous Creation of Scientific Workflow Variants",
+    alias=(0, "Requirements for Supporting the Iterative Exploration of Scientific Workflow Variants",),
+    display="carvalho",
+    authors="Carvalho, Lucas AMC and Essawy, Bakinam T and Garijo, Daniel and Medeiros, Claudia Bauzer and Gil, Yolanda",
+    place=SCIKNOW,
+    entrytype="article",
+    ID="carvalhorequirements",
+))
+
 celik2017a = DB(Work(
     2017, "Regression test selection across JVM boundaries",
     display="celik",
@@ -122,6 +198,18 @@ celik2017a = DB(Work(
     ID="celik2017regression",
     cluster_id="4987787505877529984",
     scholar="http://scholar.google.com/scholar?cites=4987787505877529984&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+closa2017a = DB(Work(
+    2017, "Web Processing Services to Describe Provenance and Geospatial Modelling",
+    display="closa",
+    authors="Closa, Guillem and Masó, Joan and Julià, Núria and Pesquer, Lluís and Zabala, A",
+    place=GEOProcessing,
+    entrytype="misc",
+    publisher="GEOProcessing",
+    ID="closa2017web",
+    cluster_id="2668481574394120089",
+    scholar="http://scholar.google.com/scholar?cites=2668481574394120089&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 cohen2017a = DB(Work(
@@ -202,6 +290,17 @@ curcin2017b = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=11655876931509216550&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+dai2017a = DB(Work(
+    2017, "Lightweight Provenance Service for High-Performance Computing",
+    display="dai",
+    authors="Dai, Dong and Chen, Yong and Carns, Philip and Jenkins, John and Ross, Robert",
+    place=PACT,
+    pp="117--129",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="dai2017lightweight",
+))
+
 davis2017a = DB(Work(
     2017, "Data Provenance for Multi-Agent Models in a Distributed Memory",
     display="davis",
@@ -224,6 +323,21 @@ davis2017b = DB(Work(
     ID="davis2017data",
     cluster_id="17024648816518712557",
     scholar="http://scholar.google.com/scholar?cites=17024648816518712557&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+deng2017a = DB(Work(
+    2017, "A Recommendation System to Facilitate Business Process Modeling",
+    display="deng",
+    authors="Deng, Shuiguang and Wang, Dongjing and Li, Ying and Cao, Bin and Yin, Jianwei and Wu, Zhaohui and Zhou, Mengchu",
+    place=TC,
+    pp="1380--1394",
+    entrytype="article",
+    volume="47",
+    number="6",
+    publisher="IEEE",
+    ID="deng2017recommendation",
+    cluster_id="16369322695495730295",
+    scholar="http://scholar.google.com/scholar?cites=16369322695495730295&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 dividino2017a = DB(Work(
@@ -253,6 +367,17 @@ filho2017a = DB(Work(
     place=SBSeg,
     entrytype="article",
     ID="santosmitigando",
+))
+
+fils2017a = DB(Work(
+    2017, "Sciunits: Reusable Research Objects",
+    display="fils",
+    authors="Fils, Gabriel and Yuan, Zhihao and Malik, Tanu and others",
+    place=eScience,
+    pp="374--383",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="fils2017sciunits",
 ))
 
 firth2017a = DB(Work(
@@ -301,6 +426,18 @@ gaignard2017b = DB(Work(
     ID="gaignard2017sharp",
 ))
 
+galletti2017a = DB(Work(
+    2017, "Numerical and Implementation Issues in Food Quality Modeling for Human Diseases Prevention.",
+    display="galletti",
+    authors="Galletti, Ardelio and Montella, Raffaele and Marcellino, Livia and Riccio, Angelo and Di Luccio, Diana and Brizius, Alison and Foster, Ian T",
+    place=HEALTHINF,
+    pp="526--534",
+    entrytype="inproceedings",
+    ID="galletti2017numerical",
+    cluster_id="12394874017447458827",
+    scholar="http://scholar.google.com/scholar?cites=12394874017447458827&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 green2017a = DB(Work(
     2017, "The semiring framework for database provenance",
     display="green",
@@ -312,6 +449,17 @@ green2017a = DB(Work(
     ID="green2017semiring",
     cluster_id="17137555199603433398",
     scholar="http://scholar.google.com/scholar?cites=17137555199603433398&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+greff2017a = DB(Work(
+    2017, "The Sacred Infrastructure for Computational Research",
+    display="greff",
+    authors="Greff, Klaus and Klein, Aaron and Chovanec, Martin and Hutter, Frank and Schmidhuber, Jürgen",
+    place=SciPy,
+    entrytype="article",
+    ID="greff2017sacred",
+    cluster_id="4463705130135117468",
+    scholar="http://scholar.google.com/scholar?cites=4463705130135117468&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 gryk2017a = DB(Work(
@@ -354,6 +502,16 @@ hinsen2017a = DB(Work(
     ID="hinsen2017problem",
 ))
 
+huber2017a = DB(Work(
+    2017, "Open Data for Open Innovation: managing skills and capabilities in SMEs",
+    alias=(0, "Open Data for Open Innovation: managing skills and capabilities in SMEs",),
+    display="huber",
+    authors="Huber, Franz and Rentocchini, Francesco and Wainwright, Thomas",
+    place=TechReport,
+    entrytype="article",
+    ID="huberopen",
+))
+
 hussein2017a = DB(Work(
     2017, "PROV-GTS: a template-based PROV graph transformation system for obscuring provenance confidential information",
     display="hussein",
@@ -372,6 +530,30 @@ huynh2017a = DB(Work(
     entrytype="article",
     publisher="Springer",
     ID="huynh2017provenance",
+))
+
+interlandi2017a = DB(Work(
+    2017, "Adding data provenance support to Apache Spark",
+    display="interlandi",
+    authors="Interlandi, Matteo and Ekmekji, Ari and Shah, Kshitij and Gulzar, Muhammad Ali and Tetali, Sai Deep and Kim, Miryung and Millstein, Todd and Condie, Tyson",
+    place=VLDB_Journal,
+    pp="1--21",
+    entrytype="article",
+    publisher="Springer",
+    ID="interlandi2017adding",
+    cluster_id="13897648061465007315",
+    scholar="http://scholar.google.com/scholar?cites=13897648061465007315&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+jabal2017a = DB(Work(
+    2017, "Provenance-Based Scientific Workflow Search",
+    display="jabal",
+    authors="Jabal, Amani Abu and Bertino, Elisa and De Mel, Geeth",
+    place=eScience,
+    pp="119--127",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="jabal2017provenance",
 ))
 
 jacob2017a = DB(Work(
@@ -399,6 +581,17 @@ ji2017a = DB(Work(
     ID="ji2017rain",
 ))
 
+karim2017a = DB(Work(
+    2017, "Improving data workflow systems with cloud services and use of open data for bioinformatics research",
+    display="karim",
+    authors="Karim, Md and Michel, Audrey and Zappa, Achille and Baranov, Pavel and Sahay, Ratnesh and Rebholz-Schuhmann, Dietrich and others",
+    place=BBIMFX,
+    entrytype="article",
+    ID="karim2017improving",
+    cluster_id="2065426008643024677",
+    scholar="http://scholar.google.com/scholar?cites=2065426008643024677&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 kianmajd2017a = DB(Work(
     2017, "Protecting Data Privacy in the Presence of Data Provenance",
     display="kianmajd",
@@ -407,6 +600,15 @@ kianmajd2017a = DB(Work(
     entrytype="book",
     publisher="University of California, Davis",
     ID="kianmajd2017protecting",
+))
+
+koczkodaj2017a = DB(Work(
+    2017, "Quo Vadis Open Data?",
+    display="koczkodaj",
+    authors="Koczkodaj, WW and Li, Feng and Urban, Roman",
+    place=TechReport,
+    entrytype="article",
+    ID="koczkodaj2017quo",
 ))
 
 kohwalter2017a = DB(Work(
@@ -473,6 +675,100 @@ li2017b = DB(Work(
     ID="li2017visualisation",
 ))
 
+liew2017a = DB(Work(
+    2017, "Scientific workflows: moving across paradigms",
+    display="liew",
+    authors="Liew, Chee Sun and Atkinson, Malcolm P and Galea, Michelle and Ang, Tan Fong and Martin, Paul and Hemert, Jano I Van",
+    place=CSUR,
+    pp="66",
+    entrytype="article",
+    volume="49",
+    number="4",
+    publisher="ACM",
+    ID="liew2017scientific",
+    cluster_id="839109616676891460",
+    scholar="http://scholar.google.com/scholar?cites=839109616676891460&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+liu2017a = DB(Work(
+    2017, "Improving the domain independence of data provenance ontologies: a demonstration using conceptual graphs and the W7 model",
+    display="liu",
+    authors="Liu, Jun and Ram, Sudha",
+    place=JDM,
+    pp="43--62",
+    entrytype="article",
+    volume="28",
+    number="1",
+    publisher="IGI Global",
+    ID="liu2017improving",
+    cluster_id="5137259002472389261",
+    scholar="http://scholar.google.com/scholar?cites=5137259002472389261&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+luccio2017a = DB(Work(
+    2017, "Some remarks about a community open source Lagrangian pollutant transport and dispersion model",
+    display="luccio",
+    authors="Di Luccio, Diana and Galletti, Ardelio and Marcellino, Livia and Riccio, Angelo and Montella, Raffaele and Brizius, Alison",
+    place=Procedia,
+    pp="490--495",
+    entrytype="article",
+    volume="113",
+    publisher="Elsevier",
+    ID="di2017some",
+    cluster_id="15416749745198199812",
+    scholar="http://scholar.google.com/scholar?cites=15416749745198199812&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+luccio2017b = DB(Work(
+    2017, "Wave run-up prediction and observation in a micro-tidal beach",
+    alias=(0, "Wave run-up prediction and observation in a micro-tidal beach",),
+    display="luccio",
+    authors="Di Luccio, Diana and Benassai, Guido and Budillon, Giorgio and Mucerino, Luigi and Montella, Raffaele and Carratelli, Eugenio Pugliese",
+    place=NHESS,
+    entrytype="article",
+    ID="diwave",
+))
+
+marinho2017a = DB(Work(
+    2017, "Deriving scientific workflows from algebraic experiment lines: A practical approach",
+    display="marinho",
+    authors="Marinho, Anderson and de Oliveira, Daniel and Ogasawara, Eduardo and Silva, Vitor and Ocaña, Kary and Murta, Leonardo and Braganholo, Vanessa and Mattoso, Marta",
+    place=FGCS,
+    pp="111--127",
+    entrytype="article",
+    volume="68",
+    publisher="Elsevier",
+    ID="marinho2017deriving",
+    cluster_id="15585298235752411979",
+    scholar="http://scholar.google.com/scholar?cites=15585298235752411979&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+meroño2017a = DB(Work(
+    2017, "Automatic Query-centric API for Routine Access to Linked Data",
+    display="meroño",
+    authors="Meroño-Peñuela, Albert and Hoekstra, Rinke",
+    place=ISWC,
+    pp="334--349",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="merono2017automatic",
+    cluster_id="10674850840405606366",
+    scholar="http://scholar.google.com/scholar?cites=10674850840405606366&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+meroño2017b = DB(Work(
+    2017, "SPARQL2Git: transparent SPARQL and linked data API curation via Git",
+    display="meroño b",
+    authors="Meroño-Peñuela, Albert and Hoekstra, Rinke",
+    place=ESWC,
+    pp="143--148",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="merono2017sparql2git",
+    cluster_id="4259263850248176949",
+    scholar="http://scholar.google.com/scholar?cites=4259263850248176949&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 miao2017a = DB(Work(
     2017, "ProvDB: Lifecycle Management of Collaborative Analysis Workflows",
     alias=(2017, "ProvDB: Lifecycle Management of Collaborative Analysis Workflows."),
@@ -498,6 +794,20 @@ miao2017b = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=17410977319002774001&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+miksa2017a = DB(Work(
+    2017, "Using ontologies for verification and validation of workflow-based experiments",
+    display="miksa",
+    authors="Miksa, Tomasz and Rauber, Andreas",
+    place=WebSemantics,
+    pp="25--45",
+    entrytype="article",
+    volume="43",
+    publisher="Elsevier",
+    ID="miksa2017using",
+    cluster_id="129490406038407489",
+    scholar="http://scholar.google.com/scholar?cites=129490406038407489&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 missier2017a = DB(Work(
     2017, "Preserving the value of large scale data analytics over time through selective re-computation",
     display="missier",
@@ -507,6 +817,46 @@ missier2017a = DB(Work(
     entrytype="inproceedings",
     organization="Springer",
     ID="missier2017preserving",
+))
+
+montella2017a = DB(Work(
+    2017, "On the virtualization of CUDA based GPU remoting on ARM and X86 machines in the GVirtuS framework",
+    display="montella",
+    authors="Montella, Raffaele and Giunta, Giulio and Laccetti, Giuliano and Lapegna, Marco and Palmieri, Carlo and Ferraro, Carmine and Pelliccia, Valentina and Hong, Cheol-Ho and Spence, Ivor and Nikolopoulos, Dimitrios S",
+    place=IJPP,
+    pp="1142--1163",
+    entrytype="article",
+    volume="45",
+    number="5",
+    publisher="Springer",
+    ID="montella2017virtualization",
+    cluster_id="6470824933245131884",
+    scholar="http://scholar.google.com/scholar?cites=6470824933245131884&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+montella2017b = DB(Work(
+    2017, "Accelerating Linux and Android applications on low-power devices through remote GPGPU offloading",
+    display="montella b",
+    authors="Montella, Raffaele and Kosta, Sokol and Oro, David and Vera, Javier and Fernández, Carles and Palmieri, Carlo and Di Luccio, Diana and Giunta, Giulio and Lapegna, Marco and Laccetti, Giuliano",
+    place=CCPE,
+    entrytype="article",
+    volume="29",
+    number="24",
+    publisher="Wiley Online Library",
+    ID="montella2017accelerating",
+    cluster_id="685276464575640546",
+    scholar="http://scholar.google.com/scholar?cites=685276464575640546&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+montella2017c = DB(Work(
+    2017, "Processing of crowd-sourced data from an internet of floating things",
+    display="montella c",
+    authors="Montella, Raffaele and Di Luccio, Diana and Marcellino, Livia and Galletti, Ardelio and Kosta, Sokol and Brizius, Alison and Foster, Ian",
+    place=WORKS,
+    pp="8",
+    entrytype="inproceedings",
+    organization="ACM",
+    ID="montella2017processing",
 ))
 
 moreau2017a = DB(Work(
@@ -547,7 +897,7 @@ nunes2017a = DB(Work(
     pp="393--444",
     entrytype="article",
     volume="27",
-    number="3-5",
+    number="3--5",
     publisher="Springer",
     ID="nunes2017systematic",
     cluster_id="13762767973988639021",
@@ -622,6 +972,17 @@ patterson2017b = DB(Work(
     number="6",
     publisher="IBM",
     ID="patterson2017dataflow",
+))
+
+pei2017a = DB(Work(
+    2017, "Information-Balance-Aware Approximated Summarization of Data Provenance",
+    display="pei",
+    authors="Pei, Jisheng and Ye, Xiaojun",
+    place=SP,
+    entrytype="article",
+    volume="2017",
+    publisher="Hindawi",
+    ID="pei2017information",
 ))
 
 perrotta2017a = DB(Work(
@@ -760,6 +1121,35 @@ schreiber2017b = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=857201692305408206&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+schulz2017a = DB(Work(
+    2017, "A systematic view on data descriptors for the visual analysis of tabular data",
+    display="schulz",
+    authors="Schulz, Hans-Jörg and Nocke, Thomas and Heitzler, Magnus and Schumann, Heidrun",
+    place=InfVis,
+    pp="232--256",
+    entrytype="article",
+    volume="16",
+    number="3",
+    publisher="SAGE Publications Sage UK: London, England",
+    ID="schulz2017systematic",
+    cluster_id="15727497032011216229",
+    scholar="http://scholar.google.com/scholar?cites=15727497032011216229&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+silva2017a = DB(Work(
+    2017, "Raw data queries during data-intensive parallel workflow execution",
+    display="silva",
+    authors="Silva, Vítor and Leite, José and Camata, José J and De Oliveira, Daniel and Coutinho, Alvaro LGA and Valduriez, Patrick and Mattoso, Marta",
+    place=FGCS,
+    pp="402--422",
+    entrytype="article",
+    volume="75",
+    publisher="Elsevier",
+    ID="silva2017raw",
+    cluster_id="9436899587705017050",
+    scholar="http://scholar.google.com/scholar?cites=9436899587705017050&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 sirqueira2017a = DB(Work(
     2017, "Proveniência de Dados em Sistemas Multiagentes",
     display="sirqueira",
@@ -780,6 +1170,18 @@ sirqueira2017b = DB(Work(
     place=Thesis,
     entrytype="article",
     ID="sirqueiracapturando",
+))
+
+sirqueira2017c = DB(Work(
+    2017, "Capturando Proveniência de Dados em Sistemas Multiagentes",
+    display="sirqueira c",
+    authors="Sirqueira, Tassio Ferenzini Martins and Viana, Marx Leles and de Lucena, Carlos José Pereira",
+    place=Thesis,
+    pp="10",
+    entrytype="article",
+    ID="sirqueira2017capturando",
+    cluster_id="5961378236296793931",
+    scholar="http://scholar.google.com/scholar?cites=5961378236296793931&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 stamatogiannakis2017a = DB(Work(
@@ -806,6 +1208,27 @@ sánchez2017a = DB(Work(
     ID="sanchez2017model",
 ))
 
+that2017a = DB(Work(
+    2017, "Sciunits: Reusable Research Objects",
+    alias=(0, "Sciunits: Reusable Research Objects",),
+    display="that",
+    authors="Dai Hai Ton That, Gabriel Fils and Yuan, Zhihao and Malik, Tanu",
+    place=arXiv,
+    entrytype="article",
+    ID="daisciunits",
+))
+
+torra2017a = DB(Work(
+    2017, "Provenance and Privacy",
+    display="torra",
+    authors="Torra, Vicen{ç} and Navarro-Arribas, Guillermo and Sanchez-Charles, David and Muntés-Mulero, Victor",
+    place=MDAI,
+    pp="3--11",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="torra2017provenance",
+))
+
 trillo2017a = DB(Work(
     2017, "KEYSTONE WG1: Activities and Results Overview on Representation of Structured Data Sources",
     display="trillo",
@@ -817,6 +1240,29 @@ trillo2017a = DB(Work(
     ID="trillo2017keystone",
 ))
 
+trinh2017a = DB(Work(
+    2017, "Linked data processing provenance: towards transparent and reusable linked data integration",
+    display="trinh",
+    authors="Trinh, Tuan-Dat and Aryan, Peb R and Do, Ba-Lam and Ekaputra, Fajar J and Kiesling, Elmar and Rauber, Andreas and Wetz, Peter and Tjoa, A Min",
+    place=eSoN,
+    pp="88--96",
+    entrytype="inproceedings",
+    organization="ACM",
+    ID="trinh2017linked",
+))
+
+underwood2017a = DB(Work(
+    2017, "Big Data Complex Event Processing for Internet of Things Provenance: Benefits for Audit, Forensics, and Safety",
+    display="underwood",
+    authors="Underwood, Mark",
+    pp="209--223",
+    place=Book,
+    bookname="Cyber-Assurance for the Internet of Things",
+    entrytype="article",
+    publisher="Wiley Online Library",
+    ID="underwood2017big",
+))
+
 watanabe2017a = DB(Work(
     2017, "Um método para paraleliza{ç}ão automática de workflows intensivos em dados",
     display="watanabe",
@@ -825,6 +1271,17 @@ watanabe2017a = DB(Work(
     entrytype="phdthesis",
     ID="watanabe2017metodo",
     local="Universidade de São Paulo",
+))
+
+wei2017a = DB(Work(
+    2017, "RDF Data Assessment Based on Metrics and Improved PageRank Algorithm",
+    display="wei",
+    authors="Wei, Kai and Tian, Pingfang and Gu, Jinguang and Huang, Li",
+    place=DASFAA,
+    pp="204--212",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="wei2017rdf",
 ))
 
 willoughby2017a = DB(Work(
@@ -853,6 +1310,19 @@ woodman2017a = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=11188228397829554403&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+zhai2017a = DB(Work(
+    2017, "Provenance Metadata of Open Government Data Based on PROV-JSON",
+    display="zhai",
+    authors="Zhai, Jun and Chen, Hongyu and Yuan, Changfneg",
+    place=DG_O,
+    pp="594--595",
+    entrytype="inproceedings",
+    organization="ACM",
+    ID="zhai2017provenance",
+    cluster_id="6568686347267176665",
+    scholar="http://scholar.google.com/scholar?cites=6568686347267176665&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 zhang2017a = DB(Work(
     2017, "Revealing the Detailed Lineage of Script Outputs using Hybrid Provenance",
     display="zhang",
@@ -875,4 +1345,19 @@ zhang2017b = DB(Work(
     ID="zhang2017diagnosing",
     cluster_id="8102675283000541641",
     scholar="http://scholar.google.com/scholar?cites=8102675283000541641&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+zhao2017a = DB(Work(
+    2017, "Annotation graphs: A graph-based visualization for meta-analysis of data based on user-authored annotations",
+    display="zhao",
+    authors="Zhao, Jian and Glueck, Michael and Breslav, Simon and Chevalier, Fanny and Khan, Azam",
+    place=TVCG,
+    pp="261--270",
+    entrytype="article",
+    volume="23",
+    number="1",
+    publisher="IEEE",
+    ID="zhao2017annotation",
+    cluster_id="10384812113162060614",
+    scholar="http://scholar.google.com/scholar?cites=10384812113162060614&as_sdt=2005&sciodt=0,5&hl=en",
 ))

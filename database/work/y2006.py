@@ -15,6 +15,7 @@ altintas2006a = DB(WorkFullPaper(
     cluster_id="10200865700598986854",
     scholar="http://scholar.google.com/scholar?cites=10200865700598986854&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="330",
 ))
 
 bose2006a = DB(WorkRegularPaper(
@@ -29,6 +30,7 @@ bose2006a = DB(WorkRegularPaper(
     cluster_id="13773720226348067197",
     scholar="http://scholar.google.com/scholar?cites=13773720226348067197&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="17",
 ))
 
 bourilkov2006a = DB(WorkRegularPaper(
@@ -43,6 +45,7 @@ bourilkov2006a = DB(WorkRegularPaper(
     cluster_id="17641743254279098788",
     scholar="http://scholar.google.com/scholar?cites=17641743254279098788&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="10",
 ))
 
 bowers2006a = DB(WorkFullPaper(
@@ -57,6 +60,7 @@ bowers2006a = DB(WorkFullPaper(
     cluster_id="7642085223488918682",
     scholar="http://scholar.google.com/scholar?cites=7642085223488918682&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="127",
 ))
 
 branco2006a = DB(WorkRegularPaper(
@@ -71,6 +75,7 @@ branco2006a = DB(WorkRegularPaper(
     cluster_id="5611114753436330492",
     scholar="http://scholar.google.com/scholar?cites=5611114753436330492&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="10",
 ))
 
 braun2006a = DB(WorkFullPaper(
@@ -85,6 +90,7 @@ braun2006a = DB(WorkFullPaper(
     cluster_id="13357038926248676725",
     scholar="http://scholar.google.com/scholar?cites=13357038926248676725&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="92",
 ))
 
 buneman2006a = DB(WorkRegularPaper(
@@ -99,6 +105,7 @@ buneman2006a = DB(WorkRegularPaper(
     cluster_id="10373484608342726784",
     scholar="http://scholar.google.com/scholar?cites=10373484608342726784&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="53",
 ))
 
 dvorak2006a = DB(WorkRegularPaper(
@@ -113,6 +120,7 @@ dvorak2006a = DB(WorkRegularPaper(
     cluster_id="16187511608804334153",
     scholar="http://scholar.google.com/scholar?cites=16187511608804334153&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="12",
 ))
 
 frey2006a = DB(WorkRegularPaper(
@@ -127,6 +135,7 @@ frey2006a = DB(WorkRegularPaper(
     cluster_id="5679175292237694649",
     scholar="http://scholar.google.com/scholar?cites=5679175292237694649&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="28",
 ))
 
 futrelle2006a = DB(WorkRegularPaper(
@@ -141,6 +150,7 @@ futrelle2006a = DB(WorkRegularPaper(
     cluster_id="18381410181118779784",
     scholar="http://scholar.google.com/scholar?cites=18381410181118779784&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="28",
 ))
 
 gil2006a = DB(WorkFullPaper(
@@ -155,6 +165,7 @@ gil2006a = DB(WorkFullPaper(
     cluster_id="7759009652715588742",
     scholar="http://scholar.google.com/scholar?cites=7759009652715588742&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="13",
 ))
 
 golbeck2006a = DB(WorkRegularPaper(
@@ -169,6 +180,7 @@ golbeck2006a = DB(WorkRegularPaper(
     cluster_id="14688972583655208861",
     scholar="http://scholar.google.com/scholar?cites=14688972583655208861&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="208",
 ))
 
 groth2006a = DB(WorkRegularPaper(
@@ -183,6 +195,7 @@ groth2006a = DB(WorkRegularPaper(
     cluster_id="13223785925811135500",
     scholar="http://scholar.google.com/scholar?cites=13223785925811135500&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="17",
 ))
 
 halaschek2006a = DB(WorkRegularPaper(
@@ -197,6 +210,7 @@ halaschek2006a = DB(WorkRegularPaper(
     cluster_id="16332350097829385062",
     scholar="http://scholar.google.com/scholar?cites=16332350097829385062&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="39",
 ))
 
 khan2006a = DB(WorkRegularPaper(
@@ -211,6 +225,7 @@ khan2006a = DB(WorkRegularPaper(
     cluster_id="914736328414417661",
     scholar="http://scholar.google.com/scholar?cites=914736328414417661&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="19",
 ))
 
 kloss2006a = DB(WorkRegularPaper(
@@ -225,6 +240,7 @@ kloss2006a = DB(WorkRegularPaper(
     cluster_id="4802902860473241619",
     scholar="http://scholar.google.com/scholar?cites=4802902860473241619&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="24",
 ))
 
 miles2006a = DB(WorkRegularPaper(
@@ -239,6 +255,7 @@ miles2006a = DB(WorkRegularPaper(
     cluster_id="16766713905151806912",
     scholar="http://scholar.google.com/scholar?cites=16766713905151806912&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="35",
 ))
 
 reilly2006a = DB(WorkRegularPaper(
@@ -253,6 +270,7 @@ reilly2006a = DB(WorkRegularPaper(
     cluster_id="9887381137947082743",
     scholar="http://scholar.google.com/scholar?cites=9887381137947082743&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="22",
 ))
 
 simmhan2006a = DB(WorkFullPaper(
@@ -267,6 +285,7 @@ simmhan2006a = DB(WorkFullPaper(
     cluster_id="8486960072476628435",
     scholar="http://scholar.google.com/scholar?cites=8486960072476628435&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="92",
 ))
 
 talbott2006a = DB(WorkRegularPaper(
@@ -281,6 +300,7 @@ talbott2006a = DB(WorkRegularPaper(
     cluster_id="12206370385573838986",
     scholar="http://scholar.google.com/scholar?cites=12206370385573838986&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="13",
 ))
 
 tan2006a = DB(WorkRegularPaper(
@@ -295,6 +315,7 @@ tan2006a = DB(WorkRegularPaper(
     cluster_id="1703196744427756779",
     scholar="http://scholar.google.com/scholar?cites=1703196744427756779&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="91",
 ))
 
 vijayakumar2006a = DB(WorkRegularPaper(
@@ -309,6 +330,7 @@ vijayakumar2006a = DB(WorkRegularPaper(
     cluster_id="9517314772760801349",
     scholar="http://scholar.google.com/scholar?cites=9517314772760801349&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="62",
 ))
 
 wootten2006a = DB(WorkRegularPaper(
@@ -323,6 +345,7 @@ wootten2006a = DB(WorkRegularPaper(
     cluster_id="975710241738769816",
     scholar="http://scholar.google.com/scholar?cites=975710241738769816&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="2",
 ))
 
 zhao2006a = DB(WorkFullPaper(
@@ -337,6 +360,7 @@ zhao2006a = DB(WorkFullPaper(
     cluster_id="6910118999594202680",
     scholar="http://scholar.google.com/scholar?cites=6910118999594202680&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="90",
 ))
 
 zhao2006b = DB(WorkFullPaper(
@@ -351,6 +375,7 @@ zhao2006b = DB(WorkFullPaper(
     cluster_id="617592275419541299",
     scholar="http://scholar.google.com/scholar?cites=617592275419541299&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="24",
 ))
 
 álvarez2006a = DB(WorkRegularPaper(
@@ -365,4 +390,5 @@ zhao2006b = DB(WorkFullPaper(
     cluster_id="11488230230926841583",
     scholar="http://scholar.google.com/scholar?cites=11488230230926841583&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+    scholar_count="29",
 ))

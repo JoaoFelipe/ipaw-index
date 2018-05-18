@@ -27,6 +27,17 @@ acuña2016a = DB(Work(
     ID="acuna2016extracting",
 ))
 
+almeida2016a = DB(Work(
+    2016, "Gerenciamento de dados de proveniência de workflow de bioinformática com banco de dados baseados em grafo",
+    display="almeida",
+    authors="Almeida, Rodrigo Pinheiro de",
+    place=Thesis,
+    entrytype="article",
+    ID="almeida2016gerenciamento",
+    cluster_id="16783041302587413099",
+    scholar="http://scholar.google.com/scholar?cites=16783041302587413099&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 alper2016a = DB(Work(
     2016, "Automatic vs manual provenance abstractions: mind the gap",
     display="alper",
@@ -72,6 +83,52 @@ assis2016a = DB(Work(
     local="Universidade Federal do Rio de Janeiro",
 ))
 
+avincan2016a = DB(Work(
+    2016, "Trust Models in Wireless Sensor Networks",
+    alias=(0, "Kablosuz Algılama A{ğ}larında Güven Modelleri",),
+    display="avincan",
+    authors="Avincan, Köksal and Do{ğ}an, Gülüstan",
+    place=ICAT,
+    entrytype="article",
+    ID="avincankablosuz",
+))
+
+azpeitia2016a = DB(Work(
+    2016, "Linked Data Wrapping as a Service",
+    alias=(0, "Linked Data Wrapping as a Service",),
+    display="azpeitia",
+    authors="Azpeitia, Iker and Iturrioz, Jon and Díaz, Oscar",
+    place=TechReport,
+    entrytype="article",
+    ID="azpeitialinked",
+))
+
+balis2016a = DB(Work(
+    2016, "HyperFlow: A model of computation, programming approach and enactment engine for complex distributed workflows",
+    display="balis",
+    authors="Balis, Bartosz",
+    place=FGCS,
+    pp="147--162",
+    entrytype="article",
+    volume="55",
+    publisher="Elsevier",
+    ID="balis2016hyperflow",
+    cluster_id="6067953867378771387",
+    scholar="http://scholar.google.com/scholar?cites=6067953867378771387&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+barrau2016a = DB(Work(
+    2016, "Gestion de la qualité des données ouvertes liées-État des lieux et perspectives",
+    display="barrau",
+    authors="Barrau, Delphine and Barthélémy, Nathalie and Kedad, Zoubida and Laboisse, Brigitte and Nugier, Sylvaine and Thion, Virginie",
+    place=Lang,
+    placename="Revue des Nouvelles Technologies de l'Information",
+    entrytype="article",
+    ID="barrau2016gestion",
+    cluster_id="7739873450189193087",
+    scholar="http://scholar.google.com/scholar?cites=7739873450189193087&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 batini2016a = DB(Work(
     2016, "Data and Information Quality",
     alias=(0, "Data and Information Quality",),
@@ -92,6 +149,16 @@ bethel2016a = DB(Work(
     place=eScience,
     entrytype="article",
     ID="bethel2016report",
+))
+
+boydens2016a = DB(Work(
+    2016, "From Information Extraction to Knowledge Discovery: Semantic Enrichment of Multilingual Content with Linked Open Data",
+    alias=(0, "From Information Extraction to Knowledge Discovery: Semantic Enrichment of Multilingual Content with Linked Open Data",),
+    display="boydens",
+    authors="Boydens, Isabelle and Bouillon, Pierrette",
+    place=Thesis,
+    entrytype="article",
+    ID="boydensinformation",
 ))
 
 buneman2016a = DB(Work(
@@ -145,6 +212,19 @@ cao2016a = DB(WorkPoster(
     scholar_ok=True,
 ))
 
+cao2016b = DB(Work(
+    2016, "Service Package Recommendation for Mashup Development Based on a Multi-level Relational Network",
+    display="cao b",
+    authors="Cao, Jian and Lu, Yijing and Zhu, Nengjun",
+    place=SCC,
+    pp="666--674",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="cao2016service",
+    cluster_id="15254763083185843814",
+    scholar="http://scholar.google.com/scholar?cites=15254763083185843814&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 car2016a = DB(WorkFullPaper(
     2016, "Enabling Web Service Request Citation by Provenance Information",
     display="car",
@@ -155,7 +235,8 @@ car2016a = DB(WorkFullPaper(
     organization="Springer",
     ID="car2016enabling",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="0",
 ))
 
 carvalho2016a = DB(WorkPoster(
@@ -193,7 +274,7 @@ ceolin2016a = DB(Work(
     pp="6",
     entrytype="article",
     volume="7",
-    number="1-2",
+    number="1--2",
     publisher="ACM",
     ID="ceolin2016combining",
     cluster_id="6670128480649021937",
@@ -212,7 +293,18 @@ chen2016a = DB(WorkFullPaper(
     cluster_id="2469971025105814030",
     scholar="http://scholar.google.com/scholar?cites=2469971025105814030&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="4",
+))
+
+chen2016b = DB(Work(
+    2016, "Big Data analytics in static and streaming provenance",
+    display="chen b",
+    authors="Chen, Peng",
+    place=Thesis,
+    entrytype="phdthesis",
+    ID="chen2016big",
+    local="Indiana University",
 ))
 
 chirigati2016a = DB(Work(
@@ -260,6 +352,19 @@ costa2016a = DB(Work(
     ID="costa2016sppv",
 ))
 
+crapo2016a = DB(Work(
+    2016, "Semantics: Revolutionary Breakthrough or Just Another Way of Doing Things?",
+    display="crapo",
+    authors="Crapo, Andrew W and Gustafson, Steven",
+    place=SW,
+    pp="85--118",
+    entrytype="incollection",
+    publisher="Springer",
+    ID="crapo2016semantics",
+    cluster_id="7566250633052017368",
+    scholar="http://scholar.google.com/scholar?cites=7566250633052017368&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 cruz2016a = DB(WorkPoster(
     2016, "SisGExp: Rethinking Long-Tail Agronomic Experiments",
     display="cruz",
@@ -298,6 +403,44 @@ daga2016a = DB(Work(
     ID="daga2016incremental",
     cluster_id="11680022983206452730",
     scholar="http://scholar.google.com/scholar?cites=11680022983206452730&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+dogan2016a = DB(Work(
+    2016, "ProTru: a provenance-based trust architecture for wireless sensor networks",
+    display="dogan",
+    authors="Dogan, Gulustan",
+    place=IJNM,
+    pp="131--151",
+    entrytype="article",
+    volume="26",
+    number="2",
+    publisher="Wiley Online Library",
+    ID="dogan2016protru",
+    cluster_id="6778702027163517398",
+    scholar="http://scholar.google.com/scholar?cites=6778702027163517398&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+dogan2016b = DB(Work(
+    2016, "A Survey of Provenance in Wireless Sensor Networks.",
+    display="dogan b",
+    authors="Dogan, Gulustan",
+    place=AHSWN,
+    entrytype="article",
+    volume="31",
+    ID="dogan2016survey",
+    cluster_id="5334860069514992391",
+    scholar="http://scholar.google.com/scholar?cites=5334860069514992391&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+dogan2016c = DB(Work(
+    2016, "What-if Analysis in Wireless Sensor Networks Using Workflow Provenance (Position Paper)",
+    display="dogan c",
+    authors="Dogan, Gulustan",
+    place=INC,
+    pp="49",
+    entrytype="inproceedings",
+    organization="Lulu. com",
+    ID="dogan2016if",
 ))
 
 eichinski2016a = DB(Work(
@@ -375,7 +518,8 @@ gammack2016a = DB(WorkFullPaper(
     cluster_id="2285309816769994546",
     scholar="http://scholar.google.com/scholar?cites=2285309816769994546&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="1",
 ))
 
 genkin2016a = DB(Work(
@@ -391,6 +535,21 @@ genkin2016a = DB(Work(
     ID="genkin59magazine",
 ))
 
+gil2016a = DB(Work(
+    2016, "Toward the geoscience paper of the future: best practices for documenting and sharing research from data to software to provenance",
+    display="gil",
+    authors="Gil, Yolanda and David, Cédric H and Demir, Ibrahim and Essawy, Bakinam T and Fulweiler, Robinson W and Goodall, Jonathan L and Karlstrom, Leif and Lee, Huikyo and Mills, Heath J and Oh, Ji-Hyun and others",
+    place=ESSci,
+    pp="388--415",
+    entrytype="article",
+    volume="3",
+    number="10",
+    publisher="Wiley Online Library",
+    ID="gil2016toward",
+    cluster_id="5073979399526982017",
+    scholar="http://scholar.google.com/scholar?cites=5073979399526982017&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 goehring2016a = DB(Work(
     2016, "Decibel: transactional branched versioning for relational data systems",
     display="goehring",
@@ -401,6 +560,53 @@ goehring2016a = DB(Work(
     local="Massachusetts Institute of Technology",
 ))
 
+gu2016a = DB(Work(
+    2016, "Service Package Recommendation for Mashup Creation via Mashup Textual Description Mining",
+    display="gu",
+    authors="Gu, Qi and Cao, Jian and Peng, Qianyang",
+    place=ICWS,
+    pp="452--459",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="gu2016service",
+    cluster_id="3161174369272157284",
+    scholar="http://scholar.google.com/scholar?cites=3161174369272157284&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+gungoren2016a = DB(Work(
+    2016, "A Novel Reduced Representation Methodology for Provenance Data",
+    display="gungoren",
+    authors="Gungoren, Mehmet and Aktas, Mehmet S",
+    place=DBKDA,
+    pp="25",
+    entrytype="article",
+    ID="gungoren2016novel",
+))
+
+gurjar2016a = DB(Work(
+    2016, "Comparative Study of Evaluating the Trustworthiness of Data Based on Data Provenance.",
+    display="gurjar",
+    authors="Gurjar, Kuldeep and Moon, Yang-Sae",
+    place=JIPS,
+    entrytype="article",
+    volume="12",
+    number="2",
+    ID="gurjar2016comparative",
+    cluster_id="11132978170651312867",
+    scholar="http://scholar.google.com/scholar?cites=11132978170651312867&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+gusew2016a = DB(Work(
+    2016, "Starting workflow tasks before they're ready",
+    display="gusew",
+    authors="Gusew, Wladislaw and Scheuermann, Björn",
+    place=eScience,
+    pp="155--164",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="gusew2016starting",
+))
+
 he2016a = DB(Work(
     2016, "Discovering Correlations in Annotated Databases.",
     display="he",
@@ -409,6 +615,16 @@ he2016a = DB(Work(
     pp="503--514",
     entrytype="inproceedings",
     ID="he2016discovering",
+))
+
+hinz2016a = DB(Work(
+    2016, "Communicating meaning and purpose of spatio-temporal data analysis",
+    display="hinz",
+    authors="Hinz, Matthias",
+    place=Thesis,
+    entrytype="phdthesis",
+    ID="hinz2016communicating",
+    local="Institute for Geoinformatics",
 ))
 
 hussein2016a = DB(Work(
@@ -446,6 +662,32 @@ huynh2016b = DB(Work(
     ID="huynhcollabmap",
 ))
 
+jabal2016a = DB(Work(
+    2016, "SimP: Secure interoperable multi-granular provenance framework",
+    display="jabal",
+    authors="Jabal, Amani Abu and Bertino, Elisa",
+    place=eScience,
+    pp="270--275",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="jabal2016simp",
+    cluster_id="8514793595083758454",
+    scholar="http://scholar.google.com/scholar?cites=8514793595083758454&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+jabal2016b = DB(Work(
+    2016, "QL-SimP: Query Language for Secure Interoperable Multi-Granular Provenance Framework",
+    display="jabal b",
+    authors="Jabal, Amani Abu and Bertino, Elisa",
+    place=CIC,
+    pp="131--138",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="jabal2016ql",
+    cluster_id="124795760844993213",
+    scholar="http://scholar.google.com/scholar?cites=124795760844993213&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 ji2016a = DB(WorkFullPaper(
     2016, "RecProv: Towards provenance-aware user space record and replay",
     display="ji",
@@ -458,7 +700,8 @@ ji2016a = DB(WorkFullPaper(
     cluster_id="14057308672498712317",
     scholar="http://scholar.google.com/scholar?cites=14057308672498712317&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="3",
 ))
 
 karsai2016a = DB(Work(
@@ -474,6 +717,37 @@ karsai2016a = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=5538917963967234210&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+karsai2016b = DB(Work(
+    2016, "Clustering Provenance",
+    display="karsai b",
+    authors="Karsai, Linus",
+    place=Thesis,
+    entrytype="phdthesis",
+    ID="karsai2016clustering",
+    local="University of Sydney",
+))
+
+kim2016a = DB(Work(
+    2016, "Assessing Run-time Overhead of Securing Kepler",
+    display="kim",
+    authors="Kim, Donghoon and Vouk, Mladen A",
+    place=Procedia,
+    pp="2281--2286",
+    entrytype="article",
+    volume="80",
+    publisher="Elsevier",
+    ID="kim2016assessing",
+))
+
+kim2016b = DB(Work(
+    2016, "Securing Data Flows within Software Application Networks in Cloud Environments.",
+    display="kim b",
+    authors="Kim, Donghoon and others",
+    place=Thesis,
+    entrytype="article",
+    ID="kim2016securing",
+))
+
 kohwalter2016a = DB(WorkFullPaper(
     2016, "Prov viewer: A graph-based visualization tool for interactive exploration of provenance data",
     display="kohwalter",
@@ -486,7 +760,8 @@ kohwalter2016a = DB(WorkFullPaper(
     cluster_id="13425560469830335",
     scholar="http://scholar.google.com/scholar?cites=13425560469830335&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="3",
 ))
 
 koop2016a = DB(WorkFullPaper(
@@ -499,7 +774,8 @@ koop2016a = DB(WorkFullPaper(
     organization="Springer",
     ID="koop2016versioning",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="0",
 ))
 
 lang2016a = DB(Work(
@@ -513,6 +789,31 @@ lang2016a = DB(Work(
     number="2016 年 11",
     publisher="中国国防科学技术信息学会| 中国兵器工业第二一零研究所",
     ID="魏银珍2016基于",
+))
+
+lang2016b = DB(Work(
+    2016, "基于相似网页文本演化的数据溯源",
+    display="lang",
+    authors="倪静 and 孟宪学",
+    pp="134--140",
+    place=Lang,
+    placename="图书情报工作",
+    entrytype="article",
+    volume="60",
+    number="13",
+    ID="倪静2016基于相似网页文本演化的数据溯源",
+))
+
+laurence2016a = DB(Work(
+    2016, "Analyzing non-collocated synchronous shared visual workspace-mediated interaction and effects on conversational grounding. A study on collaborative intelligence analysis",
+    display="laurence",
+    authors="Laurence, Sean Xavier",
+    place=Thesis,
+    entrytype="phdthesis",
+    ID="laurence2016analyzing",
+    cluster_id="14499301311107238886",
+    scholar="http://scholar.google.com/scholar?cites=14499301311107238886&as_sdt=2005&sciodt=0,5&hl=en",
+    local="Middlesex University",
 ))
 
 leadbetter2016a = DB(Work(
@@ -575,6 +876,17 @@ lemieux2016a = DB(Work(
     ID="lemieux2016provenance",
 ))
 
+liu2016a = DB(Work(
+    2016, "Semantic Similarity of Workflow Traces with Various Granularities",
+    display="liu",
+    authors="Liu, Qing and Bai, Quan and Yang, Yi",
+    place=CAiSE,
+    pp="211--226",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="liu2016semantic",
+))
+
 ludäscher2016a = DB(Work(
     2016, "A Brief Tour Through Provenance in Scientific Workflows and Databases",
     display="ludäscher",
@@ -601,7 +913,8 @@ markovic2016a = DB(WorkFullPaper(
     cluster_id="4252894334084653550",
     scholar="http://scholar.google.com/scholar?cites=4252894334084653550&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="2",
 ))
 
 markovic2016b = DB(Work(
@@ -649,7 +962,19 @@ michaelides2016a = DB(WorkFullPaper(
     cluster_id="14853632123069176016",
     scholar="http://scholar.google.com/scholar?cites=14853632123069176016&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="5",
+))
+
+michaelis2016a = DB(Work(
+    2016, "Applying Semantics-Aware Services for Military IoT Infrastructures",
+    display="michaelis",
+    authors="Michaelis, James R and Tortonesi, Mauro and Baker, Michael and Suri, Niranjan",
+    place=ICCRTS,
+    entrytype="article",
+    ID="michaelis2016applying",
+    cluster_id="5501984464818725326",
+    scholar="http://scholar.google.com/scholar?cites=5501984464818725326&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 missier2016a = DB(Work(
@@ -666,6 +991,21 @@ missier2016a = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=2383086411435165693&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+missier2016b = DB(Work(
+    2016, "Provenance and data differencing for workflow reproducibility analysis",
+    display="missier b",
+    authors="Missier, Paolo and Woodman, Simon and Hiden, Hugo and Watson, Paul",
+    place=CCPE,
+    pp="995--1015",
+    entrytype="article",
+    volume="28",
+    number="4",
+    publisher="Wiley Online Library",
+    ID="missier2016provenance",
+    cluster_id="1874979140892518431",
+    scholar="http://scholar.google.com/scholar?cites=1874979140892518431&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 mohy2016a = DB(Work(
     2016, "A Comprehensive Sanitization Approach for Workflow Provenance Graphs.",
     display="mohy",
@@ -674,6 +1014,31 @@ mohy2016a = DB(Work(
     entrytype="inproceedings",
     organization="Citeseer",
     ID="mohy2016comprehensive",
+))
+
+montella2016a = DB(Work(
+    2016, "Virtualizing CUDA enabled GPGPUs on ARM clusters",
+    display="montella",
+    authors="Montella, Raffaele and Giunta, Giulio and Laccetti, Giuliano and Lapegna, Marco and Palmieri, Carlo and Ferraro, Carmine and Pelliccia, Valentina",
+    place=PPAM,
+    pp="3--14",
+    entrytype="incollection",
+    publisher="Springer",
+    ID="montella2016virtualizing",
+    cluster_id="7190692350403818209",
+    scholar="http://scholar.google.com/scholar?cites=7190692350403818209&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+montella2016b = DB(Work(
+    2016, "Applications of the FACE-IT portal and workflow engine for operational food quality prediction and assessment: Mussel farm monitoring in the Bay of Napoli, Italy",
+    display="montella b",
+    authors="Montella, Raffaele and Brizius, Alison and Di Luccio, Diana and Porter, Cheryl and Elliot, Joshua and Madduri, Ravi and Kelly, David and Riccio, Angelo and Foster, Ian",
+    place=CEURWS,
+    entrytype="misc",
+    publisher="Italy",
+    ID="montella2016applications",
+    cluster_id="8625239548762391381",
+    scholar="http://scholar.google.com/scholar?cites=8625239548762391381&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 mountantonakis2016a = DB(Work(
@@ -739,6 +1104,18 @@ nottamkandath2016a = DB(Work(
     ID="nottamkandath2016trusting",
 ))
 
+nurmikko2016a = DB(Work(
+    2016, "A linked research network that is Transforming Musicology.",
+    display="nurmikko",
+    authors="Nurmikko-Fuller, Terhi and Page, Kevin R",
+    place=ESWC,
+    pp="73--78",
+    entrytype="inproceedings",
+    ID="nurmikko2016linked",
+    cluster_id="14343124831471638554",
+    scholar="http://scholar.google.com/scholar?cites=14343124831471638554&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 oliveira2016a = DB(WorkFullPaper(
     2016, "Analyzing provenance across heterogeneous provenance graphs",
     display="oliveira",
@@ -751,7 +1128,8 @@ oliveira2016a = DB(WorkFullPaper(
     cluster_id="15829659459600163916",
     scholar="http://scholar.google.com/scholar?cites=15829659459600163916&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="6",
 ))
 
 oliver2016a = DB(Work(
@@ -805,7 +1183,8 @@ pimentel2016a = DB(WorkFullPaper(
     cluster_id="3783364081347190151",
     scholar="http://scholar.google.com/scholar?cites=3783364081347190151&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="5",
 ))
 
 pimentel2016b = DB(WorkDemo(
@@ -834,6 +1213,20 @@ pimentel2016c = DB(WorkPoster(
     cluster_id="16620110626892658977",
     scholar="http://scholar.google.com/scholar?cites=16620110626892658977&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+))
+
+pohl2016a = DB(Work(
+    2016, "Using lag-sequential analysis for understanding interaction sequences in visualizations",
+    display="pohl",
+    authors="Pohl, Margit and Wallner, Günter and Kriglstein, Simone",
+    place=IJHCS,
+    pp="54--66",
+    entrytype="article",
+    volume="96",
+    publisher="Elsevier",
+    ID="pohl2016using",
+    cluster_id="9052673442602397317",
+    scholar="http://scholar.google.com/scholar?cites=9052673442602397317&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 prabhune2016a = DB(WorkPoster(
@@ -879,6 +1272,20 @@ ramapriyan2016a = DB(WorkPoster(
     scholar_ok=True,
 ))
 
+ramchurn2016a = DB(Work(
+    2016, "A disaster response system based on human-agent collectives",
+    alias=(0, "King’s Research Portal", "Ramchurn, S and Simpson, E and Fischer, J and Huynh, TD and Ikuno, Y and Reece, S and Jennings, NR"),
+    display="ramchurn",
+    authors="Ramchurn, Sarvapali D and Huynh, Trung Dong and Wu, Feng and Ikuno, Yukki and Flann, Jack and Moreau, Luc and Fischer, Joel E and Jiang, Wenchao and Rodden, Tom and Simpson, Edwin and others",
+    place=AI,
+    pp="661--708",
+    entrytype="article",
+    volume="57",
+    ID="ramchurn2016disaster",
+    cluster_id="7938458872751963281",
+    scholar="http://scholar.google.com/scholar?cites=7938458872751963281&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 reddish2016a = DB(Work(
     2016, "Compilation of transformation in recalculation user interface",
     display="reddish",
@@ -889,6 +1296,18 @@ reddish2016a = DB(Work(
     publisher="Google Patents",
     note="US Patent 9,417,890",
     ID="reddish2016compilation",
+))
+
+rehage2016a = DB(Work(
+    2016, "Perspective on the design of a knowledge-based system embedding Linked Data for process planning",
+    display="rehage",
+    authors="Rehage, Gerald and Joppen, Robert and Gausemeier, Jürgen",
+    place=Technology,
+    pp="267--276",
+    entrytype="article",
+    volume="26",
+    publisher="Elsevier",
+    ID="rehage2016perspective",
 ))
 
 richardson2016a = DB(WorkFullPaper(
@@ -903,7 +1322,21 @@ richardson2016a = DB(WorkFullPaper(
     cluster_id="12460033072856798342",
     scholar="http://scholar.google.com/scholar?cites=12460033072856798342&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="6",
+))
+
+rietveld2016a = DB(Work(
+    2016, "Publishing and Consuming Linked Data: Optimizing for the Unknown",
+    display="rietveld",
+    authors="Rietveld, Laurens",
+    place=Book,
+    entrytype="book",
+    volume="21",
+    publisher="IOS Press",
+    ID="rietveld2016publishing",
+    cluster_id="6424457607047284360",
+    scholar="http://scholar.google.com/scholar?cites=6424457607047284360&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 rios2016a = DB(Work(
@@ -925,6 +1358,31 @@ ruiz2016a = DB(WorkPoster(
     organization="Springer",
     ID="ruiz2016review",
     scholar_ok=True,
+))
+
+sahoo2016a = DB(Work(
+    2016, "Processing neurology clinical data for knowledge discovery: Scalable data flows using distributed computing",
+    display="sahoo",
+    authors="Sahoo, Satya S and Wei, Annan and Tatsuoka, Curtis and Ghosh, Kaushik and Lhatoo, Samden D",
+    pp="303--318",
+    place=PRBook,
+    bookname="Machine Learning for Health Informatics",
+    entrytype="incollection",
+    publisher="Springer",
+    ID="sahoo2016processing",
+))
+
+sansrimahachai2016a = DB(Work(
+    2016, "Provenance in Web Feed Mash-Up Systems",
+    display="sansrimahachai",
+    authors="Sansrimahachai, Watsawee",
+    pp="43--62",
+    place=IJITWE,
+    entrytype="article",
+    volume="11",
+    number="4",
+    publisher="IGI Global",
+    ID="sansrimahachai2016provenance",
 ))
 
 scaffidi2016a = DB(Work(
@@ -965,6 +1423,29 @@ schreiber2016a = DB(WorkPoster(
     scholar_ok=True,
 ))
 
+schreiber2016b = DB(Work(
+    2016, "Standardisierung eines erweiterbaren Modells für Provenance-Daten",
+    display="schreiber b",
+    authors="Schreiber, Andreas",
+    place=Thesis,
+    entrytype="article",
+    publisher="DLR",
+    ID="schreiber2016standardisierung",
+))
+
+schreiber2016c = DB(Work(
+    2016, "A provenance model for quantified self data",
+    display="schreiber c",
+    authors="Schreiber, Andreas",
+    place=UAHCI,
+    pp="382--393",
+    entrytype="inproceedings",
+    organization="Springer",
+    ID="schreiber2016provenance",
+    cluster_id="8544604581756714587",
+    scholar="http://scholar.google.com/scholar?cites=8544604581756714587&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 shubhangi2016a = DB(Work(
     2016, "Verifying Digital Artefacts on the Web",
     display="shubhangi",
@@ -972,6 +1453,21 @@ shubhangi2016a = DB(Work(
     place=IJCSMC,
     entrytype="article",
     ID="shubhangi2016verifying",
+))
+
+silva2016a = DB(Work(
+    2016, "Analyzing related raw data files through dataflows",
+    display="silva",
+    authors="Silva, Vítor and Oliveira, Daniel and Valduriez, Patrick and Mattoso, Marta",
+    place=CCPE,
+    pp="2528--2545",
+    entrytype="article",
+    volume="28",
+    number="8",
+    publisher="Wiley Online Library",
+    ID="silva2016analyzing",
+    cluster_id="8456863787554158899",
+    scholar="http://scholar.google.com/scholar?cites=8456863787554158899&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
 song2016a = DB(Work(
@@ -1008,7 +1504,43 @@ stamatogiannakis2016a = DB(WorkFullPaper(
     cluster_id="2904843403394446707",
     scholar="http://scholar.google.com/scholar?cites=2904843403394446707&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
-    snowball=datetime(2018, 5, 15),
+    snowball=datetime(2018, 5, 17),
+    scholar_count="5",
+))
+
+starlinger2016a = DB(Work(
+    2016, "Effective and efficient similarity search in scientific workflow repositories",
+    display="starlinger",
+    authors="Starlinger, Johannes and Cohen-Boulakia, Sarah and Khanna, Sanjeev and Davidson, Susan B and Leser, Ulf",
+    place=FGCS,
+    pp="584--594",
+    entrytype="article",
+    volume="56",
+    publisher="Elsevier",
+    ID="starlinger2016effective",
+    cluster_id="16181876547719905812",
+    scholar="http://scholar.google.com/scholar?cites=16181876547719905812&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+starlinger2016b = DB(Work(
+    2016, "Similarity measures for scientific workflows",
+    display="starlinger b",
+    authors="Starlinger, Johannes",
+    place=Thesis,
+    entrytype="article",
+    publisher="Humboldt-Universität zu Berlin, Mathematisch-Naturwissenschaftliche Fakultät",
+    ID="starlinger2016similarity",
+))
+
+sun2016a = DB(Work(
+    2016, "Collaboration design process analysis based on data provenance query language",
+    display="sun",
+    authors="Sun, Xuan and Gao, Xin and Li, Chen",
+    place=ISCIT,
+    pp="191--195",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="sun2016collaboration",
 ))
 
 suriarachchi2016a = DB(WorkPoster(
@@ -1035,6 +1567,38 @@ tallarida2016a = DB(Work(
     ID="tallarida2016gerencia",
 ))
 
+tomingas2016a = DB(Work(
+    2016, "Rule-based inference of data lineage, impact and semantic models",
+    display="tomingas",
+    authors="Tomingas, Kalle and Jarv, Priit and Tammet, Tanel",
+    pp="42--49",
+    place=Lang,
+    placename="Аналитика и управление данными в областях с интенсивным использованием данных",
+    entrytype="inproceedings",
+    ID="tomingas2016rule",
+))
+
+turki2016a = DB(Work(
+    2016, "D'ORLÉANS",
+    alias=(0, "D'ORLÉANS", "TURKI, Ahmed",),
+    display="turki",
+    authors="TURKI, Ahmed",
+    place=Thesis,
+    entrytype="article",
+    ID="turkid",
+))
+
+vasudevan2016a = DB(Work(
+    2016, "Improving data provenance reconstruction via a multi-level funneling approach",
+    display="vasudevan",
+    authors="Vasudevan, Subha and Pfeffer, William and Davis, Delmar and Asuncion, Hazeline",
+    place=eScience,
+    pp="175--184",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="vasudevan2016improving",
+))
+
 verborgh2016a = DB(Work(
     2016, "Triple Pattern Fragments: a low-cost knowledge graph interface for the Web",
     display="verborgh",
@@ -1049,6 +1613,30 @@ verborgh2016a = DB(Work(
     scholar="http://scholar.google.com/scholar?cites=16750723514355900378&as_sdt=2005&sciodt=0,5&hl=en",
 ))
 
+wiegandt2016a = DB(Work(
+    2016, "Graph n-grams for Scientific Workflow Similarity Search.",
+    display="wiegandt",
+    authors="Wiegandt, David Luis and Starlinger, Johannes and Leser, Ulf",
+    place=LWDA,
+    pp="213--224",
+    entrytype="inproceedings",
+    ID="wiegandt2016graph",
+))
+
+wigton2016a = DB(Work(
+    2016, "Forces and Patterns in the Scientific Cloud: Recent History and Beyond",
+    display="wigton",
+    authors="Wigton, RS",
+    pp="35--41",
+    place=Book,
+    bookname="Cloud Computing in Ocean and Atmospheric Sciences",
+    entrytype="incollection",
+    publisher="Elsevier",
+    ID="wigton2016forces",
+    cluster_id="3954173793662039741",
+    scholar="http://scholar.google.com/scholar?cites=3954173793662039741&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
 wu2016a = DB(WorkDemo(
     2016, "MPO: A System to Document and Analyze Distributed Heterogeneous Workflows",
     display="wu",
@@ -1061,4 +1649,28 @@ wu2016a = DB(WorkDemo(
     cluster_id="14505887097699069314",
     scholar="http://scholar.google.com/scholar?cites=14505887097699069314&as_sdt=2005&sciodt=0,5&hl=en",
     scholar_ok=True,
+))
+
+yue2016a = DB(Work(
+    2016, "Service-oriented model-encapsulation strategy for sharing and integrating heterogeneous geo-analysis models in an open web environment",
+    display="yue",
+    authors="Yue, Songshan and Chen, Min and Wen, Yongning and Lu, Guonian",
+    place=ISPRS,
+    pp="258--273",
+    entrytype="article",
+    volume="114",
+    publisher="Elsevier",
+    ID="yue2016service",
+    cluster_id="17326961710756175809",
+    scholar="http://scholar.google.com/scholar?cites=17326961710756175809&as_sdt=2005&sciodt=0,5&hl=en",
+))
+
+zawoad2016a = DB(Work(
+    2016, "Trustworthy and efficient digital forensics in the cloud",
+    display="zawoad",
+    authors="Zawoad, Shams",
+    place=Thesis,
+    entrytype="phdthesis",
+    ID="zawoad2016trustworthy",
+    local="ProQuest Dissertations Publishing",
 ))
